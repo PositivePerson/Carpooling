@@ -1,0 +1,24 @@
+#economy {
+	height: 100vh;
+
+	position: relative;
+
+	font-size: 5em;
+}
+
+#economy #pollution {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	height: auto;
+}
+
+#economy #title {
+	position: absolute;
+
+	left: 25%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+}
