@@ -1,3 +1,27 @@
-<app-navbar></app-navbar>
+<!-- <app-navbar></app-navbar> -->
+<ng-container>
+  <app-welcome></app-welcome>
 
-<app-economy></app-economy>
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav
+      #sidenav
+      mode="side"
+      opened
+      class="sidenav"
+      fixedInViewport="true"
+    >
+    </mat-sidenav>
+
+    <p class="m-0">
+      <button mat-button (click)="sidenav.toggle()" class="ml-2">
+        <mat-icon>menu_open</mat-icon>
+      </button>
+    </p>
+  </mat-sidenav-container>
+
+  <app-economy></app-economy>
+
+  <app-friends></app-friends>
+
+  <app-money></app-money>
+</ng-container>

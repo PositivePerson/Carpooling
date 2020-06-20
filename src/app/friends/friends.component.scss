@@ -1,0 +1,26 @@
+#friends {
+  height: 100vh;
+
+  font-size: 4em;
+}
+
+#friends .container-fluid {
+  width: 60%;
+}
+
+#friends #titileRow {
+  position: relative;
+}
+
+#friends #title {
+  position: absolute;
+
+  left: -1em;
+  top: -1.2em;
+
+  font-size: 0.65em;
+}
+
+#friends .quote {
+  font-size: 0.4em;
+}

@@ -1,24 +1,20 @@
 #economy {
-	height: 100vh;
+  height: 100vh;
 
-	position: relative;
+  font-size: 4em;
+}
 
-	font-size: 5em;
+#economy .container-fluid {
+  width: 60%;
 }
 
 #economy #pollution {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-
-	height: auto;
+  position: relative;
 }
 
 #economy #title {
-	position: absolute;
+  position: absolute;
 
-	left: 25%;
-	top: 25%;
-	transform: translate(-50%, -50%);
+  left: -1em;
+  top: -1em;
 }

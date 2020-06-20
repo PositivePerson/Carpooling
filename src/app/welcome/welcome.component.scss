@@ -1,0 +1,18 @@
+#welcome {
+  height: 100vh;
+
+  font-size: 6.5em;
+  letter-spacing: 0.035em;
+
+  background: linear-gradient(
+      rgba(166, 137, 131, 0.1),
+      rgba(166, 137, 131, 0.1)
+    ),
+    url("../../assets/imgs/city_cars.jpg") no-repeat center center fixed;
+}
+
+#welcome .row {
+  background: rgba(166, 137, 131, 0.5);
+
+  height: 2.3em;
+}
