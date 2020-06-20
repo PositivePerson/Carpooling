@@ -1,26 +1,29 @@
 #friends {
-  height: 100vh;
+	height: 105vh;
 
-  font-size: 4em;
+	font-size: 4em;
+	text-shadow: 0px 0px 29px rgba(58, 58, 58, 1);
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(166, 137, 131, 0.1)),
+		url("../../assets/imgs/friends_ride.jpg") no-repeat center center fixed;
 }
 
 #friends .container-fluid {
-  width: 60%;
+	width: 80%;
 }
 
 #friends #titileRow {
-  position: relative;
+	position: relative;
 }
 
 #friends #title {
-  position: absolute;
+	position: absolute;
 
-  left: -1em;
-  top: -1.2em;
+	left: -1em;
+	top: -1.2em;
 
-  font-size: 0.65em;
+	font-size: 0.65em;
 }
 
 #friends .quote {
-  font-size: 0.4em;
+	font-size: 0.4em;
 }

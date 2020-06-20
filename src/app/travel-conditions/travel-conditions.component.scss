@@ -1,10 +1,9 @@
-#economy {
+#travelCondition {
 	height: 105vh;
 
 	font-size: 4em;
-
 	background-image: linear-gradient(
-		to right bottom,
+		to left top,
 		#2c2c2c,
 		#2d2d2d,
 		#2e2e2e,
@@ -19,14 +18,14 @@
 		#3b3b3b
 	);
 }
-#economy .container-fluid {
+#travelCondition .container-fluid {
 	width: 60%;
 }
-#economy #pollution {
+#travelCondition #titleArea {
 	position: relative;
 }
-#economy #title {
+#travelCondition #title {
 	position: absolute;
-	left: -1em;
+	right: 1em;
 	top: -1em;
 }

@@ -1,18 +1,39 @@
 #welcome {
-  height: 100vh;
+	height: 100vh;
 
-  font-size: 6.5em;
-  letter-spacing: 0.035em;
+	font-size: 6.5em;
+	letter-spacing: 0.035em;
 
-  background: linear-gradient(
-      rgba(166, 137, 131, 0.1),
-      rgba(166, 137, 131, 0.1)
-    ),
-    url("../../assets/imgs/city_cars.jpg") no-repeat center center fixed;
+	background: linear-gradient(rgba(166, 137, 131, 0.1), rgba(166, 137, 131, 0.1)),
+		url("../../assets/imgs/city_cars.jpg") no-repeat center center fixed;
 }
 
 #welcome .row {
-  background: rgba(166, 137, 131, 0.5);
+	background: rgba(166, 137, 131, 0.5);
 
-  height: 2.3em;
+	height: 2.3em;
+	// max-height: 2.3em;
+
+	// transition: max-height 0.5s ease-out;
 }
+
+#welcome .welcomeBeforeClick {
+	height: 100%;
+	// max-height: 100%;
+	// transition: max-height 0.5s ease-out;
+}
+
+// -------------- R I P P L E --------------
+.example-ripple-container {
+	cursor: pointer;
+	text-align: center;
+
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: transparent;
+}
+// ------------------------------------------

@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatRippleModule } from '@angular/material/core';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -14,6 +15,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MoneyComponent } from './money/money.component';
 import { FriendsComponent } from './friends/friends.component';
+import { TravelConditionsComponent } from './travel-conditions/travel-conditions.component';
+import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { FriendsComponent } from './friends/friends.component';
     EconomyComponent,
     WelcomeComponent,
     MoneyComponent,
-    FriendsComponent
+    FriendsComponent,
+    TravelConditionsComponent,
+    TrafficJamComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,8 @@ import { FriendsComponent } from './friends/friends.component';
     MatIconModule,
     MatSidenavModule,
     MatSelectModule,
-    MatButtonModule
+    MatButtonModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
