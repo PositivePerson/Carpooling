@@ -1,7 +1,11 @@
 #apps .container-fluid {
-	width: 50%;
+	width: 70%;
 
 	min-height: 30em;
+}
+
+#apps .container-fluid .appsTitle {
+	font-size: 1.2em;
 }
 
 ::ng-deep .mat-tab-label,

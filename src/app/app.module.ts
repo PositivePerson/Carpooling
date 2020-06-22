@@ -19,6 +19,7 @@ import { FriendsComponent } from './friends/friends.component';
 import { TravelConditionsComponent } from './travel-conditions/travel-conditions.component';
 import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
 import { AppsComponent } from './apps/apps.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AppsComponent } from './apps/apps.component';
     FriendsComponent,
     TravelConditionsComponent,
     TrafficJamComponent,
-    AppsComponent
+    AppsComponent,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
