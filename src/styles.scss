@@ -6,9 +6,7 @@
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
-$custom-typography: mat-typography-config(
-  $font-family: '"Lato", Roboto, "Helvetica Neue", sans-serif;',
-);
+$custom-typography: mat-typography-config($font-family: '"Lato", Roboto, "Helvetica Neue", sans-serif;');
 @include mat-core($custom-typography);
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
@@ -32,42 +30,38 @@ $valium-theme: mat-light-theme($valium-primary, $valium-accent, $valium-warn);
 
 html,
 body {
-  height: 100%;
-  :focus {
-    outline: none;
-  }
-  ::-moz-focus-inner {
-    border: 0;
-  }
+	height: 100%;
+	:focus {
+		outline: none;
+	}
+	::-moz-focus-inner {
+		border: 0;
+	}
 }
 body {
-  margin: 0;
-  // font-family: "Lato", Roboto, "Helvetica Neue", sans-serif;
-  // background: #222;
-  // color: #cfcfcf;
+	margin: 0;
+	// font-family: "Lato", Roboto, "Helvetica Neue", sans-serif;
+	// background: #222;
+	// color: #cfcfcf;
 
-  // background-image: linear-gradient(
-  //   to right bottom,
-  //   #82eb94,
-  //   #7ce899,
-  //   #76e69d,
-  //   #71e3a1,
-  //   #6ce0a5,
-  //   #65d5a4,
-  //   #60caa3,
-  //   #5dbfa0,
-  //   #5aaa96,
-  //   #5a958a,
-  //   #5b807b,
-  //   #5b6b6a
-  // );
+	// background-image: linear-gradient(
+	//   to right bottom,
+	//   #82eb94,
+	//   #7ce899,
+	//   #76e69d,
+	//   #71e3a1,
+	//   #6ce0a5,
+	//   #65d5a4,
+	//   #60caa3,
+	//   #5dbfa0,
+	//   #5aaa96,
+	//   #5a958a,
+	//   #5b807b,
+	//   #5b6b6a
+	// );
 
-  background: #313131;
-  color: rgb(245, 245, 245);
-  font-size: 1em !important;
-  line-height: 1.5 !important;
+	background: #313131;
+	color: rgb(245, 245, 245);
+	font-size: 1em !important;
+	line-height: 1.5 !important;
 }
-
-// html {
-// 	overflow-x: hidden;
-// }

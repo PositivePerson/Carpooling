@@ -1,1 +1,43 @@
+#money {
+	height: 105vh;
 
+	font-size: 3.5em;
+	background-image: linear-gradient(
+		to left top,
+		#2c2c2c,
+		#2d2d2d,
+		#2e2e2e,
+		#2f2f2f,
+		#303030,
+		#313131,
+		#323232,
+		#333333,
+		#353535,
+		#373737,
+		#393939,
+		#3b3b3b
+	);
+
+	// background: url("../../assets/imgs/cash.jpg");
+	position: relative;
+}
+#money .container-fluid {
+	width: 60%;
+}
+#money #titleArea {
+	padding-top: 3em;
+	font-size: 1.2em;
+}
+#money .costList .col-12 {
+	margin: .3em 0;
+}
+#money .costList .col-12 .le {
+	margin: 0 0.5em;
+}
+#money .costList .col-12 .le img {
+	width: 0.8em;
+	height: auto;
+}
+// #money #title {
+// 	margin-top: 5em;
+// }

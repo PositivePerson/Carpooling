@@ -12,11 +12,13 @@ import { EconomyComponent } from './economy/economy.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MoneyComponent } from './money/money.component';
 import { FriendsComponent } from './friends/friends.component';
 import { TravelConditionsComponent } from './travel-conditions/travel-conditions.component';
 import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
+import { AppsComponent } from './apps/apps.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
     MoneyComponent,
     FriendsComponent,
     TravelConditionsComponent,
-    TrafficJamComponent
+    TrafficJamComponent,
+    AppsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
     MatSidenavModule,
     MatSelectModule,
     MatButtonModule,
-    MatRippleModule
+    MatRippleModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

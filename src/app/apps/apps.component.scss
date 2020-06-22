@@ -1,0 +1,46 @@
+#apps .container-fluid {
+	width: 50%;
+
+	min-height: 30em;
+}
+
+::ng-deep .mat-tab-label,
+::ng-deep .mat-tab-link {
+	color: whitesmoke !important;
+}
+
+// #apps .app_window {
+// 	max-height: 10em;
+// }
+
+.uber_logo img {
+	width: 25em;
+	height: auto;
+}
+
+.uber_logo_short img {
+	width: 13em;
+	height: auto;
+
+	margin: 0 6em;
+}
+
+.app_window {
+	min-height: 25em;
+}
+
+.ulBox {
+	width: calc(100% - 25em);
+}
+
+ul {
+	list-style-type: none;
+	font-size: 1.2em;
+}
+
+// md-pagination-wrapper {
+// 	height: 30px;
+// }
+// md-tab-item {
+// 	padding: 5px !important;
+// }
