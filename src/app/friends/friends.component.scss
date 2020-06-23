@@ -1,32 +1,76 @@
 #friends {
-  height: 105vh;
+	height: 105vh;
 
-  font-size: 3.9em;
-  text-shadow: 0px 0px 29px rgba(58, 58, 58, 1);
-  // background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(166, 137, 131, 0.1)),
-  //   url("../../assets/imgs/friends_ride.jpg") no-repeat center center fixed;
+	font-size: 3.9em;
+	text-shadow: 0px 0px 29px rgba(58, 58, 58, 1);
+	// background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(166, 137, 131, 0.1)),
+	//   url("../../assets/imgs/friends_ride.jpg") no-repeat center center fixed;
 
-  background-image: url("../../assets/imgs/friends_ride.jpg");
-  background-attachment: fixed;
+	background-image: url("../../assets/imgs/friends_ride.jpg");
+	background-attachment: fixed;
 }
 
 #friends .container-fluid {
-  width: 80%;
+	width: 80%;
 }
 
 #friends #titileRow {
-  position: relative;
+	position: relative;
 }
 
 #friends #title {
-  position: absolute;
+	position: absolute;
 
-  left: -1em;
-  top: -1.2em;
+	left: -1em;
+	top: -1.2em;
 
-  font-size: 0.65em;
+	font-size: 0.65em;
 }
 
 #friends .quote {
-  font-size: 0.4em;
+	font-size: 0.4em;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	#friends {
+		font-size: 3.2em;
+	}
+
+	#friends .container-fluid {
+		width: 90%;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#friends {
+		font-size: 3.2em;
+	}
+
+	#friends .container-fluid {
+		width: 90%;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#friends {
+		font-size: 3.2em;
+	}
+
+	#friends .container-fluid {
+		width: 90%;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#friends {
+		font-size: 3.2em;
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
