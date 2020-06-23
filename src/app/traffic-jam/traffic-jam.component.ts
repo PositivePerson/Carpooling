@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IParallaxScrollConfig } from 'ng2-parallaxscroll';
 
 @Component({
   selector: 'app-traffic-jam',

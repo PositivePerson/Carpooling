@@ -1,16 +1,18 @@
 #apps .container-fluid {
-	width: 70%;
+  width: 70%;
 
-	min-height: 30em;
+  min-height: 30em;
+
+  padding: 9em 0;
 }
 
 #apps .container-fluid .appsTitle {
-	font-size: 1.7em;
+  font-size: 1.7em;
 }
 
 ::ng-deep .mat-tab-label,
 ::ng-deep .mat-tab-link {
-	color: whitesmoke !important;
+  color: whitesmoke !important;
 }
 
 // #apps .app_window {
@@ -18,28 +20,28 @@
 // }
 
 .uber_logo img {
-	width: 25em;
-	height: auto;
+  width: 25em;
+  height: auto;
 }
 
 .uber_logo_short img {
-	width: 13em;
-	height: auto;
+  width: 13em;
+  height: auto;
 
-	margin: 0 6em;
+  margin: 0 6em;
 }
 
 .app_window {
-	min-height: 25em;
+  min-height: 25em;
 }
 
 .ulBox {
-	width: calc(100% - 25em);
+  width: calc(100% - 25em);
 }
 
 ul {
-	list-style-type: none;
-	font-size: 1.2em;
+  list-style-type: none;
+  font-size: 1.2em;
 }
 
 // md-pagination-wrapper {

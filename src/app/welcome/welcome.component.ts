@@ -18,16 +18,16 @@ export class WelcomeComponent implements OnInit, AfterViewInit {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
 
-    // $('.welcomeBeforeClick').one('click', () => {
-    //   $('.welcomeBeforeClick').animate({ height: 239 }, 500, "swing");
-    //   console.log(this);
+    $('.welcomeBeforeClick').one('click', () => {
+      $('.welcomeBeforeClick').animate({ height: 239 }, 500, "swing");
+      console.log(this);
 
-    //   $('html, body').animate({
-    //     scrollTop: $("#economy").offset().top
-    //   }, 1500, () => {
-    //     $('.welcomeBeforeClick').removeClass("welcomeBeforeClick");
-    //   });
-    // })
+      $('html, body').animate({
+        scrollTop: $("#economy").offset().top
+      }, 200, () => {
+        $('.welcomeBeforeClick').removeClass("welcomeBeforeClick");
+      });
+    })
 
   }
 

@@ -20,7 +20,6 @@ import { TravelConditionsComponent } from './travel-conditions/travel-conditions
 import { TrafficJamComponent } from './traffic-jam/traffic-jam.component';
 import { AppsComponent } from './apps/apps.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
-import { ParallaxDirective } from './traffic-jam/parallax.directive';
 
 import { ParallaxScrollModule } from 'ng2-parallaxscroll';
 
@@ -35,8 +34,7 @@ import { ParallaxScrollModule } from 'ng2-parallaxscroll';
     TravelConditionsComponent,
     TrafficJamComponent,
     AppsComponent,
-    AboutmeComponent,
-    ParallaxDirective
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
