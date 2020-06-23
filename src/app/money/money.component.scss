@@ -1,31 +1,49 @@
 #money {
-	height: 105vh;
+	// height: 105vh;
 
 	font-size: 3.5em;
-	background-image: linear-gradient(
-		to left top,
-		#2c2c2c,
-		#2d2d2d,
-		#2e2e2e,
-		#2f2f2f,
-		#303030,
-		#313131,
-		#323232,
-		#333333,
-		#353535,
-		#373737,
-		#393939,
-		#3b3b3b
-	);
+	// background-image: linear-gradient(
+	// 	to left top,
+	// 	#2c2c2c,
+	// 	#2d2d2d,
+	// 	#2e2e2e,
+	// 	#2f2f2f,
+	// 	#303030,
+	// 	#313131,
+	// 	#323232,
+	// 	#333333,
+	// 	#353535,
+	// 	#373737,
+	// 	#393939,
+	// 	#3b3b3b
+	// );
 
 	// background: url("../../assets/imgs/cash.jpg");
+
+	background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(166, 137, 131, 0.2)),
+		url("../../assets/imgs/cash.jpg") no-repeat center center;
+
 	position: relative;
+}
+#money span {
+	background: #3b4b5b;
+	color: #e9edf2;
+
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+#money .costList span {
+	padding-left: 0;
+	padding-right: 0;
+}
+#money span span {
+	color: rgba(0, 0, 0, 0.33);
 }
 #money .container-fluid {
 	width: 60%;
 }
 #money #titleArea {
-	padding-top: 3em;
+	// padding-top: 3em;
 	font-size: 1.2em;
 }
 #money .costList .col-12 {

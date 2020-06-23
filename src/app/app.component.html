@@ -8,11 +8,41 @@
       mode="side"
       class="sidenav"
       fixedInViewport="true"
+      opened
     >
+    <div id="navigation">
+      <div class="container-fluid">
+        <div class="jump text-center py-3 mt-2">
+          Jump to
+        </div>
+        <div>
+          <!-- <span>Beginning</span> -->
+          <button class="my-1 py-2" mat-flat-button id="buttonBeginning">Beginning</button>
+        </div>
+        <div>
+          <button class="my-1 py-2" mat-flat-button id="buttonEconomy">Economy</button>
+        </div>
+        <div>
+          <span><button class="my-1 py-2" mat-flat-button id="buttonFRIENDS">FRIENDS</button></span>
+        </div>
+        <div>
+          <span><button class="my-1 py-2" mat-flat-button id="buttonTravel">Travel Conditions</button></span>
+        </div>
+        <div>
+          <span><button class="my-1 py-2" mat-flat-button id="buttonMoney">Money</button></span>
+        </div>
+        <div>
+          <span><button class="my-1 py-2" mat-flat-button id="buttonApplications">Applications</button></span>
+        </div>
+        <div>
+          <span><button class="my-1 py-2" mat-flat-button id="buttonAbout">About Me</button></span>
+        </div>
+      </div>
+    </div>
     </mat-sidenav>
 
     <p class="m-0">
-      <button mat-button (click)="sidenav.toggle()" class="ml-2">
+      <button mat-button (click)="sidenav.toggle()" class="ml-2 px-2 py-2 mainFixedButton">
         <mat-icon>menu_open</mat-icon>
       </button>
     </p>
