@@ -1,4 +1,11 @@
-<section id="trafficJam">
+<div
+  parallax
+  [config]="{ initialValue: 50, speed: -0.05 }"
+  class="some-parallax"
+  id="trafficJam"
+>
+  <!-- <ng-parallax class="some-class" id="trafficJam"> -->
+  <!-- <section > -->
   <div class="container-fluid d-flex align-items-start h-100">
     <div class="row pt-5" id="titileRow">
       <div id="title">
@@ -8,7 +15,9 @@
       <div class="col-4"></div>
       <div class="col-8">
         <p>
-          Waiting on traffic jams waste a lot of time every morning. With carpooling you have someone to talk to in the meantime and number of cars decreases at once!
+          Waiting on traffic jams waste a lot of time every morning. With
+          carpooling you have someone to talk to in the meantime and number of
+          cars decreases at once!
         </p>
         <!-- <p class="quote text-right w-100">
         “Strangers are just friends waiting to happen.” – Rod Mckuen
@@ -16,4 +25,6 @@
       </div>
     </div>
   </div>
-</section>
+  <!-- </section> -->
+  <!-- </ng-parallax> -->
+</div>
