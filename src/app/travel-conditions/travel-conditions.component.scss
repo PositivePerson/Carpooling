@@ -31,8 +31,19 @@
 }
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+	#travelCondition .container-fluid {
+		width: 100%;
+	}
 	#travelCondition {
-		font-size: 2.6em;
+		font-size: 1.8em;
+	}
+	#travelCondition #titleArea {
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#travelCondition #title {
+		top: -1.5em;
 	}
 }
 // Small devices (landscape phones, 576px and up)
@@ -41,21 +52,18 @@
 		font-size: 2.6em;
 	}
 }
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
 	#travelCondition {
 		font-size: 2.6em;
 	}
 }
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	#travelCondition {
 		font-size: 2.6em;
 	}
 }
-
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 }

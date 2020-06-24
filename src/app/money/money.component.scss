@@ -63,10 +63,19 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 	#money {
-		font-size: 2.6em;
+		font-size: 1.8em;
+		padding-bottom: 1em;
 	}
 	#money .container-fluid {
 		width: 100%;
+	}
+	#money .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#money .col-12 {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 // Small devices (landscape phones, 576px and up)

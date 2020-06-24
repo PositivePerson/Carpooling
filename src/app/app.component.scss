@@ -3,55 +3,58 @@
 // }
 
 .sidenav-container {
-  position: absolute;
-  left: 0;
-  right: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 
 .sidenav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  // width: 200px;
-  width: 17em;
-  // background: rgba(255, 0, 0, 0.5);
-  // background: rgb(166, 137, 131);
-  // background: #434343;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// width: 200px;
+	width: 17em;
+	// background: rgba(255, 0, 0, 0.5);
+	// background: rgb(166, 137, 131);
+	// background: #434343;
 
-  background-image: linear-gradient(
-    to top,
-    #2f2f2f,
-    #313131,
-    #333333,
-    #363636,
-    #383838,
-    #393939,
-    #3b3b3b,
-    #3c3c3c,
-    #3d3d3d,
-    #3d3d3d,
-    #3e3e3e,
-    #3f3f3f
-  );
+	background-image: linear-gradient(
+		to top,
+		#2f2f2f,
+		#313131,
+		#333333,
+		#363636,
+		#383838,
+		#393939,
+		#3b3b3b,
+		#3c3c3c,
+		#3d3d3d,
+		#3d3d3d,
+		#3e3e3e,
+		#3f3f3f
+	);
 }
 mat-sidenav-container button {
-  color: rgb(254, 254, 254);
+	color: rgb(254, 254, 254);
 }
 mat-sidenav-container .mainFixedButton {
-  position: fixed;
-  // left: 2em;
-  top: 5em;
+	position: fixed;
+	// left: 2em;
+	top: 5em;
 }
 #navigation .jump {
-  font-size: 1.2em;
+	font-size: 1.2em;
 }
 #navigation {
-  color: rgb(254, 254, 254);
+	color: rgb(254, 254, 254);
 }
 #navigation .mat-flat-button {
-  background: #313131;
-  width: 17em;
+	background: #313131;
+	width: 17em;
 }
 #navigation i {
-  font-size: 1.2em;
+	font-size: 1.2em;
+}
+::ng-deep .mat-drawer.mat-drawer-side {
+	z-index: 100 !important;
 }
