@@ -39,8 +39,8 @@
 	}
 	#travelCondition #titleArea {
 		width: 90%;
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: auto !important;
+		margin-right: auto !important; // margin-left: 0; // margin-right: 0;
 	}
 	#travelCondition #title {
 		top: -1.5em;
@@ -48,8 +48,19 @@
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+	#travelCondition .container-fluid {
+		width: 100%;
+	}
 	#travelCondition {
-		font-size: 2.6em;
+		font-size: 2em;
+	}
+	#travelCondition #titleArea {
+		width: 90%;
+		margin-left: auto !important;
+		margin-right: auto !important; // margin-left: 0; // margin-right: 0;
+	}
+	#travelCondition #title {
+		top: -1.5em;
 	}
 }
 // Medium devices (tablets, 768px and up)

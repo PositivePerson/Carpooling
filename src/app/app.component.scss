@@ -40,7 +40,7 @@ mat-sidenav-container button {
 mat-sidenav-container .mainFixedButton {
 	position: fixed;
 	// left: 2em;
-	top: 5em;
+	top: .5em;
 }
 #navigation .jump {
 	font-size: 1.2em;
@@ -57,4 +57,19 @@ mat-sidenav-container .mainFixedButton {
 }
 ::ng-deep .mat-drawer.mat-drawer-side {
 	z-index: 100 !important;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.sidenav {
+		width: calc(100% - 64px);
+	}
+	#navigation .container-fluid {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#navigation button {
+		width: 100% !important;
+	}
 }
